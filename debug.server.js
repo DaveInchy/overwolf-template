@@ -97,4 +97,6 @@ class DebugServer {
 
 }
 
-module.exports.default = new DebugServer(8080);
+// Run it in the terminal with "$ npm run debug"
+// a nodejs command line debugger will spawn
+new DebugServer(8080);

@@ -1,11 +1,11 @@
 {
   "name": "overwolf-application",
-  "version": "00.00.01",
+  "version": "22.12.14",
   "description": "An Overwolf overlay that helps players find new friends and keep track of their progress, gives them a sense of the world around them, and helps them find their way around the game.",
   "main": "api/index.js",
   "private": true,
   "scripts": {
-    "release": "webpack --mode=production --env makeOpk",
+    "package": "webpack --mode=production --env makeOpk",
     "build": "webpack --mode=development",
     "serve": "webpack serve --mode=development",
     "dev": "webpack --watch --mode=development",
