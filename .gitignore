@@ -29,6 +29,7 @@
 *.local.env
 .DS_Store
 *.DS_Store
+**/*.db
 
 # CACHE & LOGS
 .eslintcache
