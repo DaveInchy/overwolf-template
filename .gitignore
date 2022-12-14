@@ -17,6 +17,7 @@
 !/packages
 #remove the line below so you upload app-release's .opk files to git too
 /packages/**/*
+!/packages/.gitkeep
 
 !/docs
 !/docs/**/*

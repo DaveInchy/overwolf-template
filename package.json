@@ -1,9 +1,23 @@
 {
-  "name": "overwolf-application",
-  "version": "22.12.14",
-  "description": "An Overwolf overlay that helps players find new friends and keep track of their progress, gives them a sense of the world around them, and helps them find their way around the game.",
+  "version": "0.0.1",
   "main": "api/index.js",
-  "private": true,
+  "name": "overwolf-application",
+  "description": "An Overwolf overlay that helps players find new friends and keep track of their progress, gives them a sense of the world around them, and helps them find their way around the game.",
+  "author": "DaveInchy",
+  "publisher": "Overwolf",
+  "license": "MIT",
+  "website": "https://overwolf.com/store",
+  "homepage": "https://github.com/daveinchy/overwolf-template/blob/publish/README.md",
+  "repository": "git+https://github.com/daveinchy/overwolf-template.git",
+  "bugs": "https://github.com/daveinchy/overwolf-template/issues",
+  "keywords": [
+    "overwolf",
+    "react",
+    "webpack",
+    "application",
+    "overlay",
+    "new world"
+  ],
   "scripts": {
     "package": "webpack --mode=production --env makeOpk",
     "build": "webpack --mode=development",
@@ -12,16 +26,6 @@
     "debug": "node debug.server.js",
     "backend": "node api/index.js"
   },
-  "keywords": [
-    "overwolf",
-    "react",
-    "webpack",
-    "application"
-  ],
-  "author": "DaveInchy",
-  "publisher": "Overwolf",
-  "website": "https://overwolf.com/",
-  "license": "UNLICENSED",
   "dependencies": {
     "@babel/plugin-syntax-jsx": "^7.18.6",
     "@babel/plugin-transform-modules-commonjs": "^7.17.9",
@@ -94,13 +98,5 @@
     "zip-a-folder": "^0.0.12",
     "zlib": "^1.0.5",
     "zlibjs": "^0.3.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/daveinchy/ow-react-template.git"
-  },
-  "bugs": {
-    "url": "https://github.com/daveinchy/ow-react-template/issues"
-  },
-  "homepage": "https://github.com/DaveInchy/ow-react-template/blob/publish/README.md"
+  }
 }
