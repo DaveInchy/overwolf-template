@@ -1,22 +1,42 @@
+## <<-< Template Notes >->>
 
-# <<-< New World Buddy >->>
+<br/>
 
-lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget consectetur consectetur, nisi nisl aliquet nunc, euismod aliquam nunc nisl eu nisi. Nulla facilisi. Nulla facilisi.
+This is a template I used and created for building my first ever overwolf application for a game called `New World`.
 
-lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget consectetur consectetur, nisi Nulla facilisi. Nulla facilisi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget consectetur consectetur, nisi.
+Thats then also the game this template is set up for, Read the next parts to make sure it works for `your game`.
 
-lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget consectetur consectetur, nisi nisl aliquet nunc, euismod aliquam nunc nisl eu nisi. Nulla facilisi. Nulla facilisi.
+<hr/>
+<br/>
 
-lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget consectetur consectetur, nisi Nulla facilisi. Nulla facilisi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget consectetur consectetur, nisi.
+## <<-< Game Setup >->>
 
-lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget consectetur consectetur, nisi nisl aliquet nunc, euismod aliquam nunc nisl eu nisi. Nulla facilisi. Nulla facilisi.
+<br/>
 
-lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget consectetur consectetur, nisi Nulla facilisi. Nulla facilisi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget consectetur consectetur, nisi.
+Change [global.ts](__blank) & [manifest.json](__blank) with the `game specific id code`.
 
-lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget consectetur consectetur, nisi nisl aliquet nunc, euismod aliquam nunc nisl eu nisi. Nulla facilisi. Nulla facilisi.
+you can find the numbers representing your game on overwolf's documentation, there is a nice searchbar!
 
-lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget consectetur consectetur, nisi Nulla facilisi. Nulla facilisi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget consectetur consectetur, nisi.
+<hr/>
+<br/>
 
-lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget consectetur consectetur, nisi nisl aliquet nunc, euismod aliquam nunc nisl eu nisi. Nulla facilisi. Nulla facilisi.
+## <<-< Command Usage >->>
 
-lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget consectetur consectetur, nisi Nulla facilisi. Nulla facilisi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget consectetur consectetur, nisi.
+<br/>
+
+    # Development & Release
+    $ npm run dev           # JIT Webpack (build/)
+    $ npm run serve         # Live Server (localhost)
+    $ npm run build         # Webpack (build/)
+    $ npm run package       # Package (packages/*.opk)
+
+    # CLI Debug Server @ localhost:8080/
+    $ npm run debug
+
+    # HTTP(S) Backend Server @ locahost:80/api
+    $ npm run api
+
+<hr/>
+<br/>
+
+##### Author: DaveInchy on GitHub.io
