@@ -3,7 +3,7 @@
   "type": "WebApp",
   "$schema": "manifest-schema.json",
   "meta": {
-    "version": "00.00.01",
+    "version": "22.12.14",
     "minimum-overwolf-version": "0.190.0",
     "author": "Overwolf",
     "name": "Custom Overwolf Application",
@@ -63,28 +63,22 @@
       "desktop": {
         "file": "desktop.html",
         "focus_game_takeover": "ShowOnHide",
-
         "desktop_only": true,
-
         "disable_rightclick": false,
         "ignore_keyboard_events": false,
-
         "show_in_taskbar": true,
         "disable_restore_animation": false,
         "grab_focus_on_desktop": true,
         "use_os_windowing": true,
         "native_window": true,
-
         "resizable": true,
         "transparent": false,
         "show_maximize": true,
         "show_minimize": true,
-
         "min_size": {
           "width": 1000,
           "height": 600
         },
-
         "allow_local_file_access": false,
         "keep_window_location": false,
         "override_on_update": true,
@@ -94,28 +88,22 @@
       "overlay": {
         "file": "overlay.html",
         "focus_game_takeover": "ShowOnFocus",
-
         "in_game_only": true,
-
         "disable_rightclick": true,
         "ignore_keyboard_events": false,
-
         "show_in_taskbar": false,
         "disable_restore_animation": true,
         "grab_focus_on_desktop": false,
         "use_os_windowing": true,
         "native_window": true,
-
         "resizable": true,
         "transparent": true,
         "show_maximize": false,
         "show_minimize": false,
-
         "min_size": {
           "width": 100,
           "height": 0
         },
-
         "allow_local_file_access": false,
         "keep_window_location": false,
         "override_on_update": true,
