@@ -1,0 +1,11 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#273444",
+        "activityBar.foreground": "#ffffff",
+        "titleBar.activeBackground": "#374c66",
+        "titleBar.activeForeground": "#F3FEF6"
+    },
+    "workbench.editor.splitSizing": "distribute",
+    "git.ignoreLimitWarning": true,
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+}

@@ -1,0 +1,35 @@
+# Author: Dave Inchy <github.com/daveinchy>
+
+# NPM
+!package-lock.json
+!package.json
+/node_modules
+/node_modules/**/*
+
+# FOLDERS & FILES
+!/api
+!/api/**/*
+!/app
+!/app/**/*
+/build
+/build/**/*
+/packages
+/packages/**/*a
+!/docs
+!/docs/**/*
+
+# ENV & LOCAL STORE FILES
+.env
+*.env
+.env.local
+*.env.local
+.local
+*.local
+.local.env
+*.local.env
+.DS_Store
+*.DS_Store
+
+# CACHE & LOGS
+.eslintcache
+.log
