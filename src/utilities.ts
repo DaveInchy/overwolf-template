@@ -95,8 +95,9 @@ export function setupStream(
         var stream = await navigator.mediaDevices.getDisplayMedia({
             video: {
                 mediaSource: 'desktop',
+                deviceId: params.id || null,
             },
-        } as any).then(feed => {
+        } as DisplayMediaStreamOptions).then(feed => {
             const { videoElement } = params;
             videoElement.srcObject = feed;
         }).catch(error => {
