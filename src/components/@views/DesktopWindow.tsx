@@ -11,7 +11,7 @@ export default function DesktopWindow(): JSX.Element
     return (
         <div className={"w-[100vw] h-[100vh]"}>
             <WindowHeader />
-            <div className={"min-h-[calc(100vh - 32px)] min-w-[100vw] bg-stone-600"}>
+            <div className={"min-h-[calc(100vh - 32px)] min-w-[100vw] bg-slate-600"}>
                 <ProductShowcase />
             </div>
         </div>

@@ -3,9 +3,9 @@
   "type": "WebApp",
   "$schema": "manifest-schema.json",
   "meta": {
-    "version": "22.12.14",
+    "version": "0.0.1",
     "minimum-overwolf-version": "0.190.0",
-    "author": "Overwolf",
+    "author": "DaveInchy",
     "name": "Custom Overwolf Application",
     "description": "A General Purpose Overwolf app that implements React, TailwindCSS and Webpack",
     "dock_button_title": "Overwolf App",
@@ -46,7 +46,6 @@
     "externally_connectable": {
       "matches": [
         "http://localhost:*",
-        "http://doonline.nl:*",
         "http://*.vercel.app",
         "http://*.overwolf.com"
       ]
@@ -62,7 +61,7 @@
       },
       "desktop": {
         "file": "desktop.html",
-        "focus_game_takeover": "ShowOnHide",
+        "focus_game_takeover": "HideOnFocus",
         "desktop_only": true,
         "disable_rightclick": false,
         "ignore_keyboard_events": false,
@@ -76,8 +75,8 @@
         "show_maximize": true,
         "show_minimize": true,
         "min_size": {
-          "width": 1000,
-          "height": 600
+          "width": 1080,
+          "height": 840
         },
         "allow_local_file_access": false,
         "keep_window_location": false,
@@ -91,7 +90,7 @@
         "in_game_only": true,
         "disable_rightclick": true,
         "ignore_keyboard_events": false,
-        "show_in_taskbar": false,
+        "show_in_taskbar": true,
         "disable_restore_animation": true,
         "grab_focus_on_desktop": false,
         "use_os_windowing": true,

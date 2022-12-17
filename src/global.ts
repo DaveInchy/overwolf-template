@@ -14,7 +14,7 @@ export const Config = {
   debug: {
     standalone: true,
     start: "/bin/bash npm run debug",
-    host: "0.0.0.0",
+    host: "localhost",
     port: 8080,
     ssl: false,
   },

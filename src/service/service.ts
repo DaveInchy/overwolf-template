@@ -39,7 +39,7 @@ class BackgroundController {
   }
 
   public async run() {
-    this.toggleWindows();
+    this.toggleWindows(true);
   }
 
   private async onAppLaunchTriggered(e: AppLaunchTriggeredEvent) {
@@ -52,7 +52,7 @@ class BackgroundController {
     this.toggleWindows();
 
     if (e.origin.includes('gamelaunchevent')) {
-      this.toggleWindows(true)
+      this.toggleWindows()
     }
   }
 

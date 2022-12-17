@@ -48,7 +48,7 @@ class DesktopController extends WindowManager {
 
     public async run() {
         this._app = mountRoot(Component);
-        this.setWindowBehavior('Overwolf Window Title');
+        this.setWindowBehavior('Overwolf Desktop Window');
         this.setHotkeyBehavior();
         this.selectDragHandle();
     }
